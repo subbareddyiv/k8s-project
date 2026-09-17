@@ -100,7 +100,7 @@ const getRandomPlayer = player => {
 		}
 	if (!bloco) bloco = getRandomBloco();
 	if (!next) next = getRandomBloco();
-	const pos = [0, Math.floor(STAGE_WIDTH / 2 - 2 / 2)];
+	const pos = [0, Math.floor((STAGE_WIDTH - 2) / 2)];
 	return { pos, bloco, next };
 };
 
