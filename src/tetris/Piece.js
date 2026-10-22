@@ -38,7 +38,7 @@ const Piece = ({x = 0, y = 0, color = randomColor(), state}) => {
     };
 
     const move = (x, y) => {
-        return Piece(x, y);
+        return Piece(x, y, z);
     };
 
     const moveInitCenter = (matrixWidth) => {
